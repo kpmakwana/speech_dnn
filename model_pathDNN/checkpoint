@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/kaushik/Documents/sppech_dnn/model_pathDNN/model35.ckpt"
+all_model_checkpoint_paths: "/Users/kaushik/Documents/sppech_dnn/model_pathDNN/model31.ckpt"
+all_model_checkpoint_paths: "/Users/kaushik/Documents/sppech_dnn/model_pathDNN/model32.ckpt"
+all_model_checkpoint_paths: "/Users/kaushik/Documents/sppech_dnn/model_pathDNN/model33.ckpt"
+all_model_checkpoint_paths: "/Users/kaushik/Documents/sppech_dnn/model_pathDNN/model34.ckpt"
+all_model_checkpoint_paths: "/Users/kaushik/Documents/sppech_dnn/model_pathDNN/model35.ckpt"

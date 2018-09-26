@@ -1,0 +1,15 @@
+clc;close all;clear;
+
+window_length = 160; % 10ms (beacuse sampling frequency is 16000 Hz)
+window_shift = 80; %5ms (window_shift < window_length)
+pre_emphesize_factor = 0.9;
+
+path = '/Users/mihir/Documents/DA-IICT/Semester 6/CT478 - Speech Tech./Project/Speech_Database/noisy_trainset_wav_16k/';
+a = dir([path,'*.wav']);
+
+for i = 1:10%length(a)
+    [y,fs] = audioread([path,a(i).name]);
+    [~, filtered_signal, energy] = my_gammatone(y, fs, window_length, window_shift, pre_emphesize_factor);
+    if i==1
+        filtered_noise = filtered_
+end
